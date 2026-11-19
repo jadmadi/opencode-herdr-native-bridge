@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# Syntax checks plus unit tests.
+set -eu
+cd "$(dirname "$0")/.."
+bun build --no-bundle tui.ts > /dev/null
+exec bun test

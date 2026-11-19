@@ -1,0 +1,29 @@
+{
+  "name": "opencode-herdr-native-bridge",
+  "version": "2026.11.0",
+  "builtUnder": "0.0.0-native-37",
+  "description": "OpenCode V2 TUI plugin that bridges opencode-native panes to Herdr TUI 0.9.5",
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "test": "script/test",
+    "check": "script/check"
+  },
+  "exports": {
+    "./tui": "./tui.ts"
+  },
+  "files": [
+    "tui.ts"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "herdr",
+    "opencode-native",
+    "tui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadmadi/opencode-herdr-native-bridge.git"
+  }
+}
