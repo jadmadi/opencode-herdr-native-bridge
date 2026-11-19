@@ -7,7 +7,7 @@ Read `~/.agents/AGENTS.md` and `../AGENTS.md` before making changes.
 ## What this is
 
 An OpenCode V2 TUI plugin (`tui.ts`) that bridges `opencode-native` panes to
-Herdr TUI 0.9.5 over `HERDR_SOCKET_PATH`. Zero dependencies, AGPL-3.0-only.
+Herdr TUI 0.9.5 over `HERDR_SOCKET_PATH`. Zero dependencies, MIT.
 
 ## Checks
 

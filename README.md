@@ -38,7 +38,7 @@ HERDR_AGENT=oc-ru opencode-native -s <session-id>
 ```
 
 Tested against `opencode-native` `0.0.0-native-37` and `herdr` `0.9.5`. Pin a
-release by checking out a tag such as `v2026.11.0` before linking.
+release by checking out a tag such as `v2026.11.1` before linking.
 
 ## Why the bridge is needed and how it works
 
@@ -73,4 +73,4 @@ Each step maps directly to those gaps:
 
 ## License
 
-AGPL-3.0-only. Copyright (C) 2026 Jad Madi.
+MIT. Copyright (C) 2026 Jad Madi.

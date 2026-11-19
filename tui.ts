@@ -7,7 +7,7 @@ import { spawn } from "node:child_process";
 import { readFileSync } from "node:fs";
 import net from "node:net";
 
-export const VERSION = "2026.11.0";
+export const VERSION = "2026.11.1";
 
 const SOURCE = "opencode:native";
 const ROUTE_POLL_INTERVAL_MS = 100;
